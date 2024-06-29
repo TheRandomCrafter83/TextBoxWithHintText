@@ -1,0 +1,9 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <!--Be sure to import the system namespace to be able to use string resources-->
+    <!--See namespace imports above-->
+    <!--Here, i gave the resource name the same name as the textbox I wish to use it on-->
+    <system:String x:Key="UsernameTextBoxHintText">Username</system:String>
+    <!--Define your hint texts in a resource dictionary-->
+</ResourceDictionary>
